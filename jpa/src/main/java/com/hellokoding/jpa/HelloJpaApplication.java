@@ -34,6 +34,7 @@ public class HelloJpaApplication implements CommandLineRunner {
     public void run(String... strings) throws Exception {
         Book bookA = new Book("Book A");
         Book bookB = new Book("Book B");
+        Book bookC = new Book("Book C");
 
         Publisher publisherA = new Publisher("Publisher A");
 
